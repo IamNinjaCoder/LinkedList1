@@ -1,0 +1,16 @@
+Given an unsorted singly Linked List, suppose you have reference (or pointer) to its head node only, which of the following operation can be implemented in O(1) time?'
+
+
+i)   Insertion at the front of the linked list
+ii)  Insertion at the end of the linked list
+iii) Deletion of the last node of the linked list
+iv)  Deletion of the front node of the linked list
+
+ANS ---> As mentioned in the question we have given an unsorted linked list  and pointer to it's head only so
+
+1) This will take O(1) as it is given that we have pointer to the head
+2) We have given only pointer to it's head only not the tail so this will take O(n) time
+3) Same reason as 2
+4) we can delete front node in O(1) time 
+
+so the final ans will be 1 and 4 only

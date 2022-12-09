@@ -1,0 +1,10 @@
+---There is reference (or pointer) to first Node of the Linked List, then time required to insert element to second position is __________. 
+
+        Indexing starts from 0
+
+ANS----: As we have given the pointer of the head and we have to insert at the 2nd pos means at 1 index this can be done in O(1) only 
+head.next=temp
+head.next=Node(data)
+Node.next=temp 
+
+
