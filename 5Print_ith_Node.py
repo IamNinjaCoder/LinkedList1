@@ -23,8 +23,8 @@ def printIthNode(head, i):
     
     while curr!=None:
         if count==i:#if count is equal to the ith node for which we want to find the element it will simply
-            #print the data and returun from the loop
-            print(curr.data)
+            #print the data and simply return from the loop only 
+            print(curr.data) 
         curr=curr.next #when if condition becomes fail then curr data will point to the next reference point
         
         count+=1
@@ -76,3 +76,5 @@ while t > 0 :
 
 
     t -= 1
+
+
